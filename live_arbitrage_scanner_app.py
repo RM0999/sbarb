@@ -8,7 +8,7 @@ import requests
 st.set_page_config(page_title="Live Sports Arbitrage Scanner", layout="wide")
 st.title("🏟️ Live Sports Arbitrage Scanner")
 
-API_KEY = "your_api_key_here"  # Replace with real key
+API_KEY = "979c4f7d8b58f830230296daa778327f" 
 SPORTS_URL = "https://api.the-odds-api.com/v4/sports/?apiKey=" + API_KEY
 ODDS_URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds?regions=au,us,uk&markets=h2h&oddsFormat=decimal&apiKey=" + API_KEY
 
